@@ -2,20 +2,21 @@ PATH
   remote: .
   specs:
     intrinio-realtime (4.1.2)
-      bigdecimal (~> 1.4.0)
-      eventmachine (~> 1.2)
+      bigdecimal (~> 3.0.0)
+      eventmachine (~> 1.2.7)
       thread (~> 0.2.2)
       websocket-client-simple (~> 0.3)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    bigdecimal (1.4.4)
+    bigdecimal (3.0.2)
     event_emitter (0.2.6)
+    eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
     thread (0.2.2)
     websocket (1.2.9)
-    websocket-client-simple (0.3.0)
+    websocket-client-simple (0.6.0)
       event_emitter
       websocket
 
@@ -27,7 +28,7 @@ DEPENDENCIES
   intrinio-realtime!
 
 RUBY VERSION
-   ruby 2.7.5p203
+   ruby 3.2.0p0
 
 BUNDLED WITH
    2.1.4
